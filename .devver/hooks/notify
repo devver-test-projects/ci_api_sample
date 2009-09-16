@@ -28,9 +28,7 @@
 ################################################################################
 require 'fileutils'
 
-local_filename = ENV.fetch('DEVVER_TEST_BUILD_NOTIFY_FILE') {
-  File.join('/tmp','notify_api_build_fallback')
-}
+local_filename = File.join('/tmp','devver_build_notify_ci_api_sample')
 
 File.open(local_filename, 'w') {|f| f.write("output: #{$stdin.read}") }
 FileUtils.chmod(0666, local_filename)
