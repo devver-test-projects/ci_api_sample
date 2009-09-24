@@ -9,6 +9,6 @@
 ################################################################################
 
 echo 'OH NOES!!!!'
-echo 'Run for your lives!' >2
+echo 'Run for your lives!' >&2
 
 exit 1
