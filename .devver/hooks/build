@@ -13,4 +13,4 @@ echo "Arguments: $*"
 echo 'OH NOES!!!!'
 echo 'Run for your lives!' >&2
 
-exit 1
+exit 0
