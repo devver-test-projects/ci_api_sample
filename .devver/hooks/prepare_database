@@ -29,7 +29,4 @@ rake RAILS_ENV=test db:schema:load
 # this file.  Look for the line beginning with "DATABASE_INITIALIZATION:", and
 # copy the value into this file.  Make sure that all other commands in this file
 # are commented out.
-<<<<<<< HEAD:.devver/hooks/prepare_database
-=======
-exit 1
->>>>>>> aa52b5d... Fixed prepare_db hook:.devver/hooks/prepare_database
+

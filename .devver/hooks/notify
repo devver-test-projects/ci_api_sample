@@ -33,5 +33,4 @@ local_filename = File.join('/tmp','devver_build_notify_ci_api_sample')
 File.open(local_filename, 'w') {|f| f.write($stdin.read) }
 FileUtils.chmod(0666, local_filename)
 
-exit 1
 
