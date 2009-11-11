@@ -3,11 +3,7 @@ class Batman < ActiveRecord::Base
     case x
     when nil then puts "nil"
     when Numeric
-      if x == 3
-        puts "you win!"
-      else
-        puts "you still win!"
-      end
+      puts "You win!"
     end
   end
 end
